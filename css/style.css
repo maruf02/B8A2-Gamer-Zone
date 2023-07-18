@@ -13,6 +13,7 @@
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  background: white;
 }
 
 .menu-title {
@@ -119,3 +120,153 @@
   height: 24px;
   padding: 16px 24px 16px 16px;
 }
+
+/* Menu Item Ends */
+
+/* Banner section Start */
+
+.banner {
+  width: 100%;
+  height: 700px;
+  background: rgba(140, 87, 238, 0.03);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.banner-tittle-text {
+  color: #0b0223;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 148px 0px 0px 244px;
+}
+/* linear-gradient(180deg, #F948B2 0%, #8758F1 100%); */
+
+.banner-main-text {
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 95px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 240px;
+  padding-bottom: 24px;
+}
+
+.banner-play {
+  color: #534c64;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: lowercase;
+  display: flex;
+  flex-direction: row;
+}
+.banner-play p {
+  padding-left: 12px;
+}
+
+.banner-play img {
+  width: 24px;
+  height: 24px;
+  padding: 0px 0px 0px 240px;
+}
+
+.banner-download {
+  color: #534c64;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  flex-direction: row;
+}
+.banner-download p {
+  padding-top: 16px;
+  padding-left: 12px;
+}
+
+.banner-download img {
+  width: 24px;
+  height: 24px;
+  padding: 16px 0px 0px 240px;
+}
+
+.banner-support {
+  color: #534c64;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  flex-direction: row;
+}
+
+.banner-support p {
+  padding-top: 16px;
+  padding-left: 12px;
+}
+
+.banner-support img {
+  width: 24px;
+  height: 24px;
+  padding: 16px 0px 0px 240px;
+}
+
+.banner-btn {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-left: 240px;
+  margin-top: 41px;
+}
+.banner-btn button {
+  padding: 21px 40px;
+  border-radius: 48px;
+  border: 0;
+}
+
+.signin-btn {
+  background: #ff42a5;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  /* padding-left: 280px; */
+}
+
+.rogue-btn {
+  background: #4ec5f7;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+/* Banner Left end */
+.banner-right {
+  margin: 20px 240px 0px 0px;
+}
+
+/* Banner Section Ends */
