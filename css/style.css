@@ -808,7 +808,7 @@
 /* footer Section start */
 
 .footer {
-  width: 1920px;
+  width: 100%;
   height: 636px;
   background: #0b0223;
 }
@@ -907,4 +907,189 @@
   padding-top: 18px;
 }
 
+.hide {
+  visibility: hidden;
+}
+
 /* footer Section End */
+
+/* ============================================================================= */
+
+/* Media Query start */
+
+/* for mobile version */
+
+@media screen and (max-width: 576px) {
+  .gamer {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .gamer-left-image {
+    margin: 0;
+  }
+
+  .gamer-left-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .gamer-right-text {
+    text-align: center;
+    padding: 0px;
+    padding-top: 61px;
+  }
+
+  .gamer-text-tittle {
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    font-size: 48px;
+  }
+
+  .gamer-text-description {
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .gamer-right-text button {
+    margin: 20px 0;
+  }
+
+  .gamer-text-purpose {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .gamer-text-purpose p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .gamer-text-purpose q {
+    font-size: 21px;
+    line-height: 35px;
+    text-align: center;
+  }
+  /* onlime gamer funny video section */
+  .online-games {
+    width: auto;
+    padding: 20px;
+  }
+
+  .online-games-tittle {
+    font-size: 36px;
+    padding-top: 60px;
+  }
+
+  .online-games-tittle-another {
+    font-size: 36px;
+  }
+
+  .online-games-text {
+    font-size: 16px;
+    padding-top: 12px;
+  }
+
+  .videos-cards {
+    flex-direction: column;
+    margin: 24px 0;
+  }
+
+  .videos-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .videos-card .content {
+    width: 100%;
+    height: 80%;
+    position: static;
+    background: none;
+    opacity: 1;
+    border: none;
+    margin-bottom: 0;
+  }
+
+  .content img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .content p {
+    font-size: 16px;
+    padding-top: 8px;
+    visibility: hidden;
+  }
+
+  .card-desc {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 12px;
+  }
+
+  /* career section  */
+
+  .career {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 20px;
+    background: #ff42a5;
+  }
+
+  .career-text {
+    margin: 0;
+  }
+
+  .career-text-tittle {
+    font-size: 36px;
+    line-height: 45px;
+    padding-top: 60px;
+  }
+
+  .career-desc {
+    width: auto;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 16px;
+  }
+
+  .career-list-text {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .career-list-text-left {
+    width: auto;
+    height: auto;
+    padding-top: 16px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .career-list-text-right {
+    width: auto;
+    height: auto;
+    padding-top: 16px;
+    text-align: center;
+  }
+
+  .career-text button {
+    margin-top: 24px;
+  }
+
+  .carrer-image img {
+    width: 100%;
+    height: auto;
+  }
+}
