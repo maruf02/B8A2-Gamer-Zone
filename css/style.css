@@ -920,6 +920,61 @@
 /* for mobile version */
 
 @media screen and (max-width: 576px) {
+  /* manu section */
+
+  .menu-bar {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .menu-title {
+    align-items: center;
+    padding: 0;
+  }
+
+  .menu-title img {
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .menu-title-text {
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .menu-item {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  .menu-item li {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .menu-item-follow-us {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .follow-us-text {
+    padding: 10px 0;
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+
+  .youtube-img,
+  .tiktok-img {
+    padding: 10px;
+    margin-bottom: 0;
+  }
+  /* gamer section */
   .gamer {
     width: auto;
     height: auto;
@@ -1198,6 +1253,21 @@
   .play-badge-img {
     visibility: hidden;
     padding: 0px;
+  }
+
+  /* box container section */
+  .box-container {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin-bottom: 50px;
+  }
+
+  .box-item-first-row,
+  .box-item-second-row {
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
   }
 
   /* footer section */
