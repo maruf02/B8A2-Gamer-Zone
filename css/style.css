@@ -622,3 +622,99 @@
 }
 
 /* play games style ends */
+
+/* career style start */
+.career {
+  width: 100%;
+  height: 821px;
+  background: #ff42a5;
+  display: flex;
+  flex-direction: row;
+}
+
+.career-text {
+  margin: 0px 0px 0px 240px;
+}
+
+.career-text-tittle {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  padding-top: 120px;
+}
+.career-desc {
+  width: 680px;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  padding-top: 24px;
+}
+
+.career-list-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.career-list-text-left {
+  width: 337px;
+  height: 240px;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 200% */
+  padding-top: 32px;
+  /* text-align: left; */
+  /* justify-content: left; */
+}
+.career-list-text-left li {
+  list-style: none;
+}
+
+.career-list-text-right {
+  width: 246px;
+  height: 240px;
+  padding-top: 32px;
+  text-align: right;
+  color: #fff;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 200% */
+}
+
+.career-list-text-right li {
+  list-style: none;
+}
+
+.career-text button {
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 48px;
+  background: #fff;
+  border: 0;
+  margin-top: 61px;
+}
+
+.career-btn-text {
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #ff42a5;
+}
+
+/* career style Ends */
