@@ -1180,23 +1180,25 @@
   }
 
   .career-list-text {
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
   }
 
   .career-list-text-left {
     width: auto;
     height: auto;
-    padding-top: 16px;
-    text-align: center;
-    justify-content: center;
+    padding-top: 5px;
+    text-align: left;
+    /* justify-content: center; */
   }
 
   .career-list-text-right {
     width: auto;
     height: auto;
-    padding-top: 16px;
-    text-align: center;
+    width: 291.582px;
+    height: 286.678px;
+    padding-top: 10px;
+    text-align: right;
   }
 
   .career-text button {
@@ -1206,6 +1208,7 @@
   .carrer-image img {
     width: 100%;
     height: auto;
+    margin-top: 30px;
   }
 
   /* play game section */
@@ -1219,7 +1222,7 @@
   }
 
   .play-game-img .main-img {
-    width: 100%;
+    width: 90%;
     height: auto;
     border-radius: 8px;
     margin-top: 40px;
@@ -1227,7 +1230,7 @@
   }
 
   .play-game-img .badge-img {
-    width: 60%;
+    width: 50%;
     height: auto;
     border-radius: 8px;
     margin-top: 20px;
@@ -1235,11 +1238,16 @@
     left: 0;
   }
 
-  .badge-img {
-    visibility: hidden;
+  .play-game-img .badge-img {
+    /* visibility: hidden; */
+    width: 165px;
+    height: 165px;
+    left: 200px;
+    top: -150px;
   }
   .play-game-text-tittle {
-    width: auto;
+    width: 300px;
+    height: 238.163px;
     margin-top: 40px;
     justify-content: center;
     align-items: center;
@@ -1252,7 +1260,7 @@
   }
 
   .play-game-text-tittle .anywhere {
-    font-size: 36px;
+    font-size: 30px;
     line-height: 45px;
   }
 
@@ -1301,18 +1309,21 @@
   }
 
   .play-main-img {
-    width: 30%;
+    width: 40%;
     height: auto;
     border-radius: 8px;
     margin-top: 40px;
-    left: -140px;
+    left: -100px;
     padding: 0px;
     align-items: center;
   }
 
   .play-badge-img {
-    visibility: hidden;
+    /* visibility: hidden; */
+    width: 150px;
+    height: 150px;
     padding: 0px;
+    left: -480px;
   }
 
   /* box container section */
