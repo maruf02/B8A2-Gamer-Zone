@@ -781,10 +781,25 @@
   width: 317px;
   height: 80px;
   border-radius: 50px;
-  background: #4ec5f7;
-  /* margin-top: 120px; */
+  background: white;
   display: flex;
   flex-direction: row;
+}
+
+.box-item-first-row button:hover {
+  border: 3px solid #f948b2;
+  color: white;
+}
+.box-item-first-row button p:hover {
+  color: #f948b2;
+}
+
+.box-item-second-row button:hover {
+  border: 3px solid #f948b2;
+  color: white;
+}
+.box-item-second-row button p:hover {
+  color: #f948b2;
 }
 
 /* box container style ends */
