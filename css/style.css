@@ -6,7 +6,7 @@
 /* menu Item Style */
 
 .menu-bar {
-  width: 100%;
+  width: 1920px;
   height: 130px;
   display: flex;
   flex-direction: row;
@@ -126,7 +126,7 @@
 /* Banner section Start */
 
 .banner {
-  width: 100%;
+  width: 1920px;
   height: 700px;
   background: rgba(140, 87, 238, 0.03);
   display: flex;
@@ -274,7 +274,7 @@
 /* We are Gamer section Start */
 
 .gamer {
-  width: 100%;
+  width: 1920px;
   height: 600px;
   background: rgba(255, 66, 165, 0.03);
   display: flex;
@@ -372,7 +372,7 @@
 
 .online-games {
   background: white;
-  width: 100%;
+  width: 1920px;
 }
 
 .online-games-tittle {
@@ -481,6 +481,7 @@
 /* play instantly section start */
 
 .play-instantly {
+  width: 1920px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -554,12 +555,10 @@
 /* play games style start */
 .play-game {
   margin: 120px 240px 0px 240px;
+  width: 1920px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  /* text-align: center;
-  align-items: center;
-  text-align: left; */
+  justify-content: flex-start;
 }
 
 .play-game-img .main-img {
@@ -567,6 +566,7 @@
   height: 650px;
   border-radius: 8px;
   position: relative;
+  margin-top: 120px;
 }
 
 .play-game-img .badge-img {
@@ -574,17 +574,13 @@
   height: 365px;
   border-radius: 8px;
   position: relative;
-  top: -240px;
-  left: 520px;
-  /* margin-right: 110px; */
+  top: 170px;
+  left: -200px;
 }
 
 .play-game-text-tittle {
   width: 426px;
-  margin-left: 300px;
   margin-top: 150px;
-  /* position: relative;
-  top: 50px; */
   justify-content: center;
   align-items: center;
 }
@@ -618,18 +614,18 @@
   font-weight: 400;
   line-height: 30px; /* 166.667% */
   padding: 24px 0px 0px 0px;
-  margin-left: 300px;
 }
 
 /* play games style ends */
 
 /* career style start */
 .career {
-  width: 100%;
+  width: 1920px;
   height: 821px;
   background: #ff42a5;
   display: flex;
   flex-direction: row;
+  margin-top: 260px;
 }
 
 .career-text {
@@ -718,3 +714,77 @@
 }
 
 /* career style Ends */
+
+/* box container style start */
+
+.box-container {
+  width: 1920px;
+  height: 427px;
+  background: rgba(255, 66, 165, 0.03);
+}
+
+.box-item-first-row {
+  display: flex;
+  /* grid-template-columns: repeat(5, 1fr); */
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0px auto;
+  padding-top: 120px;
+}
+
+.box-item-first-row img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.box-item-first-row p {
+  color: #0b0223;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-left: 5px;
+  padding-top: 28px;
+}
+
+.box-item-second-row {
+  display: flex;
+  /* grid-template-columns: repeat(4, 1fr); */
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0px auto;
+  margin-top: 27px;
+}
+
+.box-item-second-row img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.box-item-second-row p {
+  color: #0b0223;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-left: 5px;
+  padding-top: 28px;
+}
+.box-item {
+  width: 317px;
+  height: 80px;
+  border-radius: 50px;
+  background: #4ec5f7;
+  /* margin-top: 120px; */
+  display: flex;
+  flex-direction: row;
+}
+
+/* box container style ends */
