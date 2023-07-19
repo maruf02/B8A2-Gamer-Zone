@@ -1092,4 +1092,146 @@
     width: 100%;
     height: auto;
   }
+
+  /* play game section */
+  .play-game {
+    margin: 40px 20px;
+    width: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .play-game-img .main-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .play-game-img .badge-img {
+    width: 60%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    left: 0;
+  }
+
+  .badge-img {
+    visibility: hidden;
+  }
+  .play-game-text-tittle {
+    width: auto;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .play-game-text-tittle .play {
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  .play-game-text-tittle .anywhere {
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  .play-game-text-desc {
+    width: auto;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 16px 0;
+    text-align: center;
+  }
+
+  /* play instant section */
+  .play-instantly {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    padding: 0px;
+  }
+
+  .play-inst-tittle {
+    width: 40%;
+    height: auto;
+    margin-left: 0;
+    margin-top: 40px;
+    padding: 0px;
+  }
+
+  .play-inst {
+    font-size: 36px;
+    line-height: 45px;
+    padding: 0px;
+  }
+
+  .no-download {
+    font-size: 36px;
+    line-height: 45px;
+    padding: 0px;
+  }
+
+  .play-inst-desc {
+    width: 40%;
+    text-align: center;
+    margin-left: 0;
+    padding: 24px 0 0;
+    padding: 0px;
+  }
+
+  .play-main-img {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 40px;
+    left: -140px;
+    padding: 0px;
+    align-items: center;
+  }
+
+  .play-badge-img {
+    visibility: hidden;
+    padding: 0px;
+  }
+
+  /* footer section */
+  .footer {
+    height: auto;
+  }
+
+  .footer-tittle {
+    padding-top: 40px;
+  }
+
+  .footer-tittle-text {
+    font-size: 36px;
+  }
+
+  .footer-link {
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-top: 40px;
+  }
+
+  .footer-icon-btn {
+    flex-wrap: wrap;
+    gap: 80px;
+  }
+
+  .footer-link2 {
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-top: 40px;
+  }
+
+  .copyright {
+    padding-top: 16px;
+    padding-bottom: 200px;
+  }
 }
